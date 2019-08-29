@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(array)
   # Your code here
-  array.map { |word| puts "#{word.capitalize}!" }
+  array.map { |word| p "#{word.capitalize}!" }
 end
 
 def long_planeteer_calls# code an argument here
